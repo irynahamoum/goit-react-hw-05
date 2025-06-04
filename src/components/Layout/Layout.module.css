@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-left: 40px;
+  height: 60px;
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(to right, rgba(128, 128, 128, 0.736), rgba(128, 128, 128, 0.041), transparent 100%);
+}

@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 22px;
+  list-style: none;
+}
+
+.card {
+  width: 250px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* display: block; */
+  object-position: center;
+}

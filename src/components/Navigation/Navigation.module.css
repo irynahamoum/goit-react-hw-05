@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-left: 40px;
+}
+
+.link {
+  display: inline-flex;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(84, 83, 83);
+}
+
+.link:hover {
+  text-shadow: 1px 1px 2px rgb(255, 185, 196);
+}
+
+.active {
+  color: rgb(255, 185, 196);
+}
